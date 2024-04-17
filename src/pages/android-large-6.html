@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Dacoid</title>
+        <link rel="stylesheet" href="../../build/css/style.css" />
+    </head>
+    <body>
+        <div
+            class="Android large-6 w-[375px] h-[800px] relative bg-neutral-50 rounded-[10px] shadow mx-auto"
+        >
+            <div
+                class="Status pl-3.5 pr-[14.34px] pt-3 pb-3.5 left-0 top-0 absolute justify-center items-center gap-[226px] inline-flex"
+            >
+                <div
+                    class="Time w-[54px] text-center text-neutral-800 text-[15px] font-semibold font-['Montserrat']"
+                >
+                    9:41
+                </div>
+                <div class="Status-bar w-[66.66px] h-[11.67px] relative">
+                    <img
+                        class="cellular-connection w-[17px] h-[10.67px] left-0 top-[1px] absolute"
+                        src="../assets/images/Cellular Connection.svg"
+                    />
+                    <img
+                        class="wifi w-[15.33px] h-[11px] left-[22px] top-0 absolute"
+                        src="../assets/images/Wifi.svg"
+                    />
+                    <div
+                        class="battery w-[24.33px] h-[11.33px] left-[42.33px] top-0 absolute"
+                    >
+                        <div
+                            class="w-[22px] h-[11.33px] left-0 top-0 absolute opacity-30 rounded-sm border border-neutral-800"
+                        ></div>
+                        <div
+                            class="w-[18px] h-[7.33px] left-[2px] top-[2px] absolute bg-neutral-800 rounded-sm"
+                        ></div>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="left-[78px] top-[68px] absolute text-zinc-800 text-xl font-semibold font-['Montserrat']"
+            >
+                What are your goals?
+            </div>
+            <form method="post">
+                <label
+                    for="weightLoss"
+                    class="w-[343px] h-[50px] left-[16px] top-[135px] absolute bg-zinc-100 rounded-xl"
+                >
+                    <div
+                        class="left-[20px] top-[18px] absolute text-zinc-800 text-xs font-semibold font-['Montserrat']"
+                    >
+                        Weight Loss
+                    </div>
+                    <input
+                        type="checkbox"
+                        name="weightLoss"
+                        id="weightLoss"
+                        class="w-[22px] h-[22px] left-[305px] top-[14px] absolute rounded border border-indigo-400 cursor-pointer"
+                    />
+                </label>
+                <label
+                    for="muscleGain"
+                    class="w-[343px] h-[50px] left-[16px] top-[201px] absolute bg-zinc-100 rounded-xl"
+                >
+                    <div
+                        class="left-[20px] top-[18px] absolute text-zinc-800 text-xs font-semibold font-['Montserrat']"
+                    >
+                        Muscle Gain
+                    </div>
+                    <input
+                        type="checkbox"
+                        name="muscleGain"
+                        id="muscleGain"
+                        class="w-[22px] h-[22px] left-[305px] top-[14px] absolute rounded border border-indigo-400 cursor-pointer"
+                    />
+                </label>
+                <label
+                    for="flexibility-mobility"
+                    class="w-[343px] h-[50px] left-[16px] top-[267px] absolute bg-zinc-100 rounded-xl"
+                >
+                    <div
+                        class="left-[20px] top-[18px] absolute text-zinc-800 text-xs font-semibold font-['Montserrat']"
+                    >
+                        Flexibility and Mobility
+                    </div>
+                    <input
+                        type="checkbox"
+                        name="flexibility-mobility"
+                        id="flexibility-mobility"
+                        class="w-[22px] h-[22px] left-[305px] top-[14px] absolute rounded border border-indigo-400 cursor-pointer"
+                    />
+                </label>
+                <label
+                    for="general-fitness"
+                    class="w-[343px] h-[50px] left-[16px] top-[333px] absolute bg-zinc-100 rounded-xl"
+                >
+                    <div
+                        class="left-[20px] top-[18px] absolute text-zinc-800 text-xs font-semibold font-['Montserrat']"
+                    >
+                        General Fitness
+                    </div>
+                    <input
+                        type="checkbox"
+                        name="general-fitness"
+                        id="general-fitness"
+                        class="w-[22px] h-[22px] left-[305px] top-[14px] absolute rounded border border-indigo-400 cursor-pointer"
+                    />
+                </label>
+                <label
+                    for="event-specific-training"
+                    class="w-[343px] h-[50px] left-[16px] top-[399px] absolute bg-zinc-100 rounded-xl"
+                >
+                    <div
+                        class="left-[20px] top-[18px] absolute text-zinc-800 text-xs font-semibold font-['Montserrat']"
+                    >
+                        Event - specific training
+                    </div>
+                    <input
+                        type="checkbox"
+                        name="event-specific-training"
+                        id="event-specific-training"
+                        class="w-[22px] h-[22px] left-[305px] top-[14px] absolute rounded border border-indigo-400 cursor-pointer"
+                    />
+                </label>
+                <label
+                    for="mindfulness-mental-health"
+                    class="w-[343px] h-[50px] left-[16px] top-[465px] absolute bg-zinc-100 rounded-xl"
+                >
+                    <div
+                        class="left-[20px] top-[18px] absolute text-zinc-800 text-xs font-semibold font-['Montserrat']"
+                    >
+                        Mindfulness and Mental Health
+                    </div>
+                    <input
+                        type="checkbox"
+                        name="mindfulness-mental-health"
+                        id="mindfulness-mental-health"
+                        class="w-[22px] h-[22px] left-[305px] top-[14px] absolute rounded border border-indigo-400 cursor-pointer"
+                    />
+                </label>
+                <button
+                    type="submit"
+                    class="w-[343px] h-[50px] left-[16px] top-[665px] absolute bg-gradient-to-l from-indigo-400 to-blue-300 rounded-xl text-white text-base font-semibold font-['Montserrat']"
+                >
+                    Confirm
+                </button>
+            </form>
+        </div>
+    </body>
+</html>
